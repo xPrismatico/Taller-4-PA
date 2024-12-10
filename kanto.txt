@@ -1,0 +1,78 @@
+ 29, Jolteon,Primera Evolucion, Eevee, Electrico, Electrico
+
+
+27, Eevee, Basico ,Vaporeon , Jolteon ,Flareon, Normal, Normal
+
+
+13, Weedle, Basico, Kakuna, Beedrill,Insecto, Insecto
+
+
+
+
+2 ,Ivysaur, Primera Evolucion , Venusaur,Bulbasaur, Hierba, Veneno
+
+14, Kakuna,Primera Evolucion, Beedrill , Weedle, Insecto, Insecto
+
+
+26 , Raichu , Primera Evolucion,Pikachu, Electrico, Electrico
+ 25,Pikachu, Basico ,Raichu , Electrico,Electrico
+23 ,Ekans ,Basico,Arbok, Veneno , Veneno
+
+
+
+
+
+
+ 16 ,Pidgey, Basico ,Pidgeotto, Pidgeot ,Normal,Volador
+
+
+6 , Charizard ,Segunda Evolucion ,Charmeleon ,Charmander,Fuego, Volador
+
+ 8,Wartortle,Primera Evolucion ,Blastoise,Squirtle , Agua , Agua
+
+
+15 ,Beedrill,Segunda Evolucion ,Kakuna, Weedle ,Insecto, Volador
+7, Squirtle, Basico, Wartortle, Blastoise, Agua, Agua
+24 , Arbok, Primera Evolucion,Ekans, Veneno,Veneno
+
+1,Bulbasaur ,Basico, Ivysaur ,Venusaur ,Hierba, Veneno
+
+
+28,Vaporeon,Primera Evolucion,Eevee,Agua , Agua
+
+ 22,Fearow,Primera Evolucion ,Spearow, Normal, Volador
+
+
+19, Rattata, Basico, Raticate, Normal, Normal
+
+
+11, Metapod, Primera Evolucion, Butterfree, Caterpie, Insecto, Insecto
+
+17, Pidgeotto, Primera Evolucion, Pidgeot, Pidgey, Normal, Volador
+5, Charmeleon, Primera Evolucion, Charizard, Charmander, Fuego, Fuego
+
+
+
+
+
+12, Butterfree, Segunda Evolucion, Metapod, Caterpie, Insecto, Volador
+
+
+3, Venusaur, Segunda Evolucion, Ivysaur, Bulbasaur, Hierba, Veneno
+
+
+
+
+
+10, Caterpie, Basico, Metapod, Butterfree, Insecto, Insecto
+
+9, Blastoise, Segunda Evolucion, Wartortle, Squirtle, Agua, Agua
+
+18, Pidgeot, Segunda Evolucion, Pidgeotto, Pidgey, Normal, Volador
+
+4, Charmander, Basico, Charmeleon, Charizard, Fuego, Fuego
+
+20, Raticate, Primera Evolucion, Rattata, Normal, Normal
+21, Spearow, Basico, Fearow, Normal, Volador
+
+30, Flareon, Primera Evolucion, Eevee, Fuego, Fuego

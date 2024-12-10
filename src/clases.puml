@@ -1,0 +1,74 @@
+@startuml
+skin rose
+
+interface Pokedex{
++menu(): void
++BuscarRango(a: int, b: int): void
++MostrarTodos(): void
++BuscarTipo(tipo: String): void
++BuscarPrimeraEvolucion(): void
++BuscarNombre(nombre: String): void
++BuscarID(id: int): void
+}
+
+class PokedexImpl {
+-listaNexoPokemons: ListaNexoDoble
+-listaPokemons: ArrayList<Pokemon>
+-listaPokemonsABC: ArrayList<Pokemon>
+
++PokedexImpl(listaNexoPokemons: ListaNexoDoble, listaPokemons: ArrayList<Pokemon>, listaPokemonsABC: ArrayList<Pokemon>)
+}
+
+class ListaNexoDoble {
+-cabeza: NodoDoble
+
++ListaNexoDoble()
+}
+
+class NodoDoble {
+-anterior: NodoDoble
+-siguiente: NodoDoble
+-pokemon: Pokemon
+
++NodoDoble()
++getAnterior(): NodoDoble
++getSiguiente(): NodoDoble
++getPokemon(): Pokemon
++setSiguiente(siguiente: NodoDoble): void
++setAnterior(anterior: NodoDoble): void
+}
+
+class Pokemon {
+-ID: int
+-Nombre: String
+-Etapa: String
+-EvolucionSiguiente: String
+-EvolucionPrevia: String
+-EvolucionOpcional: String
+-Tipo 1: String
+-Tipo 2: String
+
++Pokemon(ID: int,Nombre: String, Etapa: String, EvolucionSiguiente: String, EvolucionPrevia: String, Tipo 1: String, Tipo 2: String)
++Pokemon(ID: int,Nombre: String, Etapa: String, EvolucionSiguiente: String, EvolucionPrevia: String, String: EvolucionOpcional, Tipo 1: String, Tipo 2: String)
+
++getId()
++getEtapa()
++getNombre()
++getEvolucionSiguiente()
++getEvolucionPrevia()
++getEvolucionOpcional()
++getTipo1()
++getTipo2()
+}
+
+
+Pokedex <.. PokedexImpl: implementa
+
+PokedexImpl --> ListaNexoDoble
+
+ListaNexoDoble <-- NodoDoble
+
+Pokemon <-- NodoDoble: contiene
+
+
+@enduml
